@@ -28,7 +28,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository**:  
    ```bash  
-   git clone https://github.com/Niraj21611/codeantai
+   git clone https://github.com/Niraj21611/codeantai.git
    cd codeantai
    ```  
 
