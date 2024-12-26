@@ -19,13 +19,13 @@ const StyledContainer = styled.div`
 `;
 
 const StyledInnerDiv = styled.div`
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   width: 100%;
   padding-top: 1rem;
-  padding-left: 1rem; 
-  padding-right: 1rem; 
-  align-items: center; 
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: center;
   @media (max-width: 768px) {
     justify-content: space-between;
     padding: 0;
@@ -33,8 +33,8 @@ const StyledInnerDiv = styled.div`
 `;
 
 const StyledImageDiv = styled.div`
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
   justify-content: center;
   gap: 1rem;
   height: 4rem;
@@ -126,6 +126,7 @@ const StyledNavbarContainer = styled.div`
 const StyledBarsButton = styled.button`
   border: none;
   background: none;
+  cursor: pointer;
 `;
 
 function SideBar() {
@@ -159,7 +160,7 @@ function SideBar() {
     <StyledContainer>
       <StyledInnerDiv>
         <StyledImageDiv>
-          <img src={"/svg/logo.svg"} alt="" />
+          <img src={"/svg/logo.svg"} alt="brand logo symbol" />
           <StyledSpan>CodeAnt AI</StyledSpan>
         </StyledImageDiv>
         <StyledBarIconDiv>
@@ -168,19 +169,19 @@ function SideBar() {
               setIsSideBarVisible((prevState) => !prevState);
             }}
           >
-            <img src={"/svg/bars.svg"} alt="" />
+            <img src={"/svg/bars.svg"} alt="bars symbol" />
           </StyledBarsButton>
         </StyledBarIconDiv>
       </StyledInnerDiv>
       <StyledNavbarContainer
-        $isMobile={isMobile}
-        $isSideBarVisible={isSideBarVisible}
+        isMobile={isMobile}
+        isSideBarVisible={isSideBarVisible}
       >
         <StyledNavbarDiv>
           <StyledUserDiv>
             <StyledUserSpan>
               <span>UtkarshDhairyaPanwar...</span>
-              <img src={"/svg/chevronDown.svg"} alt="" />
+              <img src={"/svg/chevronDown.svg"} alt="down arrow symbol" />
             </StyledUserSpan>
           </StyledUserDiv>
           <StyledNavbar>

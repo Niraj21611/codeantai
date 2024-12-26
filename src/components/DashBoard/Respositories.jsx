@@ -47,6 +47,7 @@ const StyledP = styled.p`
   font-family: "Inter";
   font-size: 16px;
   font-weight: 600;
+
 `;
 
 function Respositories() {

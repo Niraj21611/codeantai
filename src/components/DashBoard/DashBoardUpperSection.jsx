@@ -7,6 +7,7 @@ const StyledUpperSection = styled.div`
   gap: 4rem;
   padding: 1rem;
 `;
+
 const StyledUpperSectionDiv = styled.div`
   display: flex;
   justify-content: space-between;
