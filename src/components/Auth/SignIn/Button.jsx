@@ -11,8 +11,8 @@ const StyledButton = styled.button`
     border: ${(props) => (props.borderStyle ? `${props.borderStyle} var(--color-border)` : 'none')};
     color: ${(props) => (props.isActive ? 'white' : 'black')};
     cursor: pointer;
-    padding: 0.75rem; /* Equivalent to p-3 */
-    border-radius: 0.50rem; /* Equivalent to rounded-xl */
+    padding: 0.75rem;
+    border-radius: 0.50rem; 
     width: 50%;
 `
 

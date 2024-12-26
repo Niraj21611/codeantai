@@ -1,32 +1,31 @@
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
-import { StyledSpan } from "../Auth/SignIn/SignIn";
+
 import Options from "./Options";
+import { StyledSpan } from "../Auth/SignIn/UpperSection";
 
 const StyledContainer = styled.div`
-  display: flex; /* Equivalent to 'flex' */
-  flex-direction: column; /* Equivalent to 'flex-col' */
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  background-color: white; /* Equivalent to 'bg-white' */
-  border-right: 1px solid var(--color-brand-secondary); /* Equivalent to 'border-r' */
-  position: relative; /* Equivalent to 'relative' */
+  background-color: white;
+  border-right: 1px solid var(--color-brand-secondary);
+  position: relative;
 
-  /* Media query for medium screens and larger */
   @media (min-width: 768px) {
-    /* Adjust the breakpoint as needed */
-    width: 16rem; 
-    height: 100vh; /* Equivalent to 'md:h-screen' */
+    width: 16rem;
+    height: 100vh;
   }
 `;
 
 const StyledInnerDiv = styled.div`
-  display: flex; /* Equivalent to 'flex' */
+  display: flex; 
   justify-content: space-between;
-  width: 100%; /* Equivalent to 'w-full' */
+  width: 100%;
   padding-top: 1rem;
-  padding-left: 1rem; /* Equivalent to 'px-4' (1rem = 4 * 0.25rem) */
-  padding-right: 1rem; /* Equivalent to 'px-4' */
-  align-items: center; /* Equivalent to 'items-center' */
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+  align-items: center; 
   @media (max-width: 768px) {
     justify-content: space-between;
     padding: 0;
@@ -34,9 +33,9 @@ const StyledInnerDiv = styled.div`
 `;
 
 const StyledImageDiv = styled.div`
-  display: flex; /* Equivalent to 'flex' */
-  align-items: center; /* Equivalent to 'items-center' */
-  justify-content: center; /* Equivalent to 'justify-center' */
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
   gap: 1rem;
   height: 4rem;
   @media (max-width: 768px) {
@@ -61,7 +60,7 @@ const StyledUserDiv = styled.div`
   align-items: center;
   padding-top: 0.25rem;
   padding-bottom: 0.5rem;
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     padding-bottom: 0;
   }
 `;
@@ -78,7 +77,7 @@ const StyledUserSpan = styled.span`
   gap: 0.5rem;
   align-items: center;
   cursor: pointer;
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     width: 85%;
     justify-content: space-between;
   }
@@ -114,14 +113,11 @@ const StyledNavbarContainer = styled.div`
   display: flex;
   overflow: hidden;
   transition: all 0.3s ease;
-  /* transform: translateY(${({ isSideBarVisible }) =>
-    isSideBarVisible ? "0" : "100%"}); */
   height: ${({ isMobile, isSideBarVisible }) =>
     isMobile ? (isSideBarVisible ? "calc(100vh - 64px)" : "0px") : "100%"};
 
   @media (min-width: 768px) {
     position: static;
-    /* height: auto; */
     transform: translateY(0);
     padding: none;
   }
@@ -130,8 +126,7 @@ const StyledNavbarContainer = styled.div`
 const StyledBarsButton = styled.button`
   border: none;
   background: none;
-`
-
+`;
 
 function SideBar() {
   const [isSideBarVisible, setIsSideBarVisible] = useState(false);
@@ -178,8 +173,8 @@ function SideBar() {
         </StyledBarIconDiv>
       </StyledInnerDiv>
       <StyledNavbarContainer
-        isMobile={isMobile}
-        isSideBarVisible={isSideBarVisible}
+        $isMobile={isMobile}
+        $isSideBarVisible={isSideBarVisible}
       >
         <StyledNavbarDiv>
           <StyledUserDiv>

@@ -6,8 +6,6 @@ const StyledP = styled.p`
   align-items: center;
   font-weight: 400;
   font-size: 16px;
-  /* line-height: 24px; */
-  /* margin-top: 32px; */
   @media (max-width: 768px) {
     font-size: 14px;
   }

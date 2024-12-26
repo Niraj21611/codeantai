@@ -5,7 +5,6 @@ import Disclaimer from "./Disclaimer";
 
 const StyledDiv = styled.section`
   background-color: var(--color-brand-secondary);
-  /* background-color: red; */
   display: flex;
   width: 100%;
   max-width: 400px;

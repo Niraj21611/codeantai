@@ -1,20 +1,19 @@
 import React from "react";
 import styled from "styled-components";
-import Button from "./Button";
 
 const StyledA = styled.a`
 font-family: "Inter";
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  display: flex; /* Equivalent to flex */
-  align-items: center; /* Equivalent to items-center */
-  justify-content: center; /* Equivalent to justify-center */
-  width: 100%; /* Equivalent to w-full */
-  gap: 0.75rem; /* Equivalent to gap-3 */
-  padding: 0.75rem; /* Equivalent to p-2 */
-  border: 1px solid #E9EAEB; /* Default border (you can specify color if needed) */
-  border-radius: 0.50rem; /* Equivalent to rounded-xl */
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  width: 100%; 
+  gap: 0.75rem; 
+  padding: 0.75rem; 
+  border: 1px solid #E9EAEB; 
+  border-radius: 0.50rem;
   text-decoration: none;
   color: black;
 `;
