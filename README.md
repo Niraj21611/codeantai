@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# CodeAnt AI: Frontend Developer Hiring Assignment  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains solution for the **Frontend Developer Intern Hiring Assignment** for CodeAnt AI. The task involves implementing the website using design file through figma [Design File](https://www.figma.com/design/3j3bEI8nR1T1UwsfEBMbhi/Frontend-Developer-%3C%3E-CodeAnt?node-id=1-3774&t=PF5SHhAHY07q0AjA-0).  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Table of Contents  
+- [Overview](#overview)  
+- [Installation](#installation)  
+- [Technologies Used](#technologies-used)  
+- [Features](#features)  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview  
+This project demonstrates my skills in frontend development using ReactJS, HTML, and CSS. The implementation was done considering efficient coding practices and reusable components.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Objectives  
+- Create a replica of given design file.  
+- Ensure functionality and responsiveness across devices.  
+- Develop reusable and clean code understandable for other's  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation  
 
-### `npm run build`
+Follow these steps to set up the project locally:  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**:  
+   ```bash  
+   git clone https://github.com/Niraj21611/codeantai
+   cd codeantai
+   ```  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install dependencies**:  
+   ```bash  
+   npm install  
+   ```  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Start the development server**:  
+   ```bash  
+   npm start  
+   ```  
 
-### `npm run eject`
+4. **View the project in your browser**:  
+   Open `http://localhost:3000` in your preferred browser.  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used  
+- **ReactJS**: For building interface with resuable components.  
+- **Styled Components**: For creating reusable styling components.  
+- **HTML**: For structuring the application.   
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Features  
+- Responsive design optimized across mobile screens.  
+- Accurate implementation of the Figma design.  
+- Reusable components/styles for maintainability with appropriate naming conventions.  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
