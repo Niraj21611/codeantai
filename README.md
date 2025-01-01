@@ -1,6 +1,6 @@
 # CodeAnt AI: Frontend Developer Hiring Assignment  
 
-This repository contains solution for the **Frontend Developer Intern Hiring Assignment** for CodeAnt AI. The task involves implementing the website using design file through figma [Design File](https://www.figma.com/design/3j3bEI8nR1T1UwsfEBMbhi/Frontend-Developer-%3C%3E-CodeAnt?node-id=1-3774&t=PF5SHhAHY07q0AjA-0).  
+This repository contains a solution for the **Frontend Developer Intern Hiring Assignment** for CodeAnt AI. The task involves implementing the website using a design file through Figma [Design File](https://www.figma.com/design/3j3bEI8nR1T1UwsfEBMbhi/Frontend-Developer-%3C%3E-CodeAnt?node-id=1-3774&t=PF5SHhAHY07q0AjA-0).  
 
 ---
 
@@ -13,12 +13,12 @@ This repository contains solution for the **Frontend Developer Intern Hiring Ass
 ---
 
 ## Overview  
-This project demonstrates my skills in frontend development using ReactJS, HTML, and CSS. The implementation was done considering efficient coding practices and reusable components.  
+This project demonstrates my skills in front-end development using ReactJS, HTML, and CSS. The implementation was done considering efficient coding practices and reusable components.  
 
 ### Objectives  
-- Create a replica of given design file.  
+- Create a replica of the given design file.  
 - Ensure functionality and responsiveness across devices.  
-- Develop reusable and clean code understandable for other's  
+- Develop reusable and clean code understandable for others  
 
 ---
 
@@ -48,9 +48,9 @@ Follow these steps to set up the project locally:
 ---
 
 ## Technologies Used  
-- **ReactJS**: For building interface with resuable components.  
-- **Styled Components**: For creating reusable styling components.  
-- **HTML**: For structuring the application.   
+- **ReactJS**: For building interfaces with reusable components.  
+- **Styled Components**: This is used to create reusable styling components.  
+- **HTML**: This is used to structure the application.   
 
 ---
 
